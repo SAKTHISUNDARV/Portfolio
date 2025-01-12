@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes loader {
+    0% {
+      background-position: -800px 0;
+    }
+    100% {
+      background-position: 800px 0;
+    }
+  }
+  
+  .animation-loader hr {
+    animation: loader 3s infinite linear;
+    background-size: 800px;
+  }
+  
